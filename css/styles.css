@@ -1,0 +1,157 @@
+body {
+    margin: 0px;
+}
+.nav-container {
+    position: sticky;
+    z-index: 3;
+    top: 0;
+}
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    height: 12vh;
+    background-color: black;
+}
+.navbar-productos {
+    justify-self: start;
+    margin-left: 20px;
+    color: white;
+    margin-top: 4vh;
+    cursor: pointer;
+}
+.carrito {
+    font-size: 25px;
+    margin-right: 20px;
+    margin-top: 3.5vh;
+    cursor: pointer;
+}
+.banner {
+    background-color: gray;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    padding: 35px;
+}
+.banner-container {
+    text-align: center;
+    padding: 15% 0;
+}
+.banner h2 {
+    margin: 0;
+    color: white;
+    text-shadow: 1px 1px 3px black;
+    font-size: 62px;
+    font-weight: bold;
+}
+.banner p {
+    font-size: 30px;
+    color: white;
+    opacity: 0.7;
+    text-shadow: 1px 1px 3px black;
+}
+.array-productos {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-top: 30px;
+    margin-left: 80px;
+    margin-right: 80px;
+}
+.cards {
+    box-shadow: 0 4px 8px 0 black;
+    max-width: 300px;
+    margin: auto;
+    text-align: center;
+    font-family: arial;
+}
+.cards img {
+    width: 90%;
+    height: 250px;
+}
+.precio {
+    color: grey;
+    font-size: 22px;
+}
+.cards button {
+    border: none;
+    outline: 0;
+    padding: 12px;
+    color: white;
+    background-color: rgb(103, 105, 102);
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+    font-size: 18px;
+}
+.cards button:hover {
+    opacity: 0.7;
+}
+.carrito-container {
+    width: 80%;
+    margin: 0 10%;
+    max-height: 88vh;
+    color: whitesmoke;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: fixed;
+    overflow: auto;
+    z-index: 9;
+    top: 12vh;
+    scrollbar-color: none;
+}
+.carrito-container::-webkit-scrollbar {
+    display: none;
+}
+.carrito-header {
+    display: flex;
+    justify-content: space-around;
+    background-color: black;
+    color: white;
+    width: 100%;
+}
+.carrito-header-h2 {
+    justify-content: start;
+}
+.carrito-button{
+    cursor: pointer;
+}
+.carrito-container carrito-content {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    width: 70%;
+    margin: 10px;
+}
+.carrito-container div img {
+    height: 120px;
+    width: 120px;
+}
+.comprar-total {
+    font-size: 25px;
+    padding: 20px;
+    text-align: center;
+    padding-top: 20px;
+}
+.borrar-producto {
+    cursor: pointer;
+}
+.cantidad-carrito {
+    background-color: red;
+    color: white;
+    border-radius: 50%;
+    font-size: 12px;
+    padding: 4px;
+    top: 37px;
+    right: 14px;
+    position: absolute;
+    display: none;
+}
+.sumar{
+    cursor: pointer;
+}
+.restar{
+    cursor: pointer;
+}

@@ -1,0 +1,30 @@
+[ 
+    {
+        "id": 1,
+        "nombre": "Amortiguadores",
+        "precio": 250000,
+        "img": "img/amortiguador deportivo.webp",
+        "cantidad": 1
+    },
+    {
+        "id": 2,
+        "nombre": "Espirales Deportivo",
+        "precio": 125000,
+        "img": "img/espirales deportivo.jpg",
+        "cantidad": 1
+    },
+    {
+        "id": 3,
+        "nombre": "Kit Suspension Neumatica",
+        "precio": 850000,
+        "img": "img/kit neumatica castor.webp",
+        "cantidad": 1
+    },
+    {
+        "id": 4,
+        "nombre": "Kit Suspension Neumatica 2",
+        "precio": 1000000,
+        "img": "img/kit neumatica airlift.jpg",
+        "cantidad": 1
+    }
+]   
